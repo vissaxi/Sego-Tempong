@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+
+<!--
+  Heads up! 👋
+
+  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
+-->
+
+<section
+  class="relative bg-[url(https://i.pinimg.com/736x/f6/b4/1f/f6b41f48c482cdeeef23ce28391915ac.jpg)] bg-cover bg-center bg-no-repeat"
+>
+  <div
+    class="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"
+  ></div>
+
+  <div
+    class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+  >
+    <div class="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+      <h1 class="text-3xl font-extrabold sm:text-5xl">
+        Trinkets/Keychain
+
+        <strong class="block font-extrabold text-rose-700"> Cute Stuff. </strong>
+      </h1>
+
+      <p class="mt-4 max-w-lg sm:text-xl/relaxed">
+       Find your cute keychain here!
+      </p>
+
+      <div class="mt-8 flex flex-wrap gap-4 text-center">
+        <a
+          href="#"
+          class="block w-full rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+        >
+          Get Started
+        </a>
+
+        <a
+          href="#"
+          class="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-rose-600 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
+        >
+          Learn More
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<a href="#" class="block">
+    <img
+      alt=""
+      src="https://plus.unsplash.com/premium_photo-1689518469262-6f9499412ef0?q=80&w=1445&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      class="h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover sm:h-64 lg:h-72"
+    />
+  
+    <div class="mt-4 sm:flex sm:items-center sm:justify-center sm:gap-4">
+      <strong class="font-medium">LIPZI STORE</strong>
+  
+      <span class="hidden sm:block sm:h-px sm:w-8 sm:bg-orange-500"></span>
+  
+      <p class="mt-0.5 opacity-50 sm:mt-0">Branding / Signage</p>
+    </div>
+  </a>
+
+
+
+
+
+
+
+
+
+<section>
+    <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+      <header>
+        <h2 class="text-xl font-bold text-orange-500 sm:text-3xl">Keychain Collections</h2>
+  
+        <p class="mt-4 max-w-md text-orange-500">
+         Koleksi keychain izza dan alifiya
+        </p>
+      </header>
+  
+      <ul class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <li>
+          <a href="#" class="group block overflow-hidden">
+            <img
+              src="https://cdn.ruparupa.io/fit-in/400x400/filters:format(webp)/filters:quality(90)/ruparupa-com/image/upload/Products/10540437_1.jpg"
+              alt=""
+              class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+            />
+  
+            <div class="relative bg-white pt-3">
+              <h3 class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
+                Flower Keychain
+              </h3>
+  
+              <p class="mt-2">
+                <span class="sr-only"> Regular Price </span>
+  
+                <span class="tracking-wider text-gray-900"> Rp. 15.000 </span>
+              </p>
+            </div>
+          </a>
+        </li>
+  
+        <li>
+          <a href="#" class="group block overflow-hidden">
+            <img
+              src="https://i.pinimg.com/originals/6a/cd/6a/6acd6a175a6864551f2775b1aebefa0e.jpg"
+              alt=""
+              class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+            />
+  
+            <div class="relative bg-white pt-3">
+              <h3 class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
+                Pin Resin Keychain
+              </h3>
+  
+              <p class="mt-2">
+                <span class="sr-only"> Regular Price </span>
+  
+                <span class="tracking-wider text-gray-900"> Rp. 35.000 </span>
+              </p>
+            </div>
+          </a>
+        </li>
+  
+        <li>
+          <a href="#" class="group block overflow-hidden">
+            <img
+              src="https://www.thesparklestory.in/cdn/shop/products/PersonalizedKeychain-Couple-RedHeart-CODNotApplicable_grande.jpg?v=1659948105"
+              alt=""
+              class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+            />
+  
+            <div class="relative bg-white pt-3">
+              <h3 class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
+                Custom Couple Keychain
+              </h3>
+  
+              <p class="mt-2">
+                <span class="sr-only"> Regular Price </span>
+  
+                <span class="tracking-wider text-gray-900"> Rp. 30.000 </span>
+              </p>
+            </div>
+          </a>
+        </li>
+  
+        <li>
+          <a href="#" class="group block overflow-hidden">
+            <img
+              src="https://m.media-amazon.com/images/I/51grR1BgceL._AC_UY1000_.jpg"
+              alt=""
+              class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+            />
+  
+            <div class="relative bg-white pt-3">
+              <h3 class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
+                Daisy Keychain
+              </h3>
+  
+              <p class="mt-2">
+                <span class="sr-only"> Regular Price </span>
+  
+                <span class="tracking-wider text-gray-900"> Rp. 40.000 </span>
+              </p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  
+
+
+
+
+
+    <div class="fixed inset-x-0 bottom-0">
+        <div class="bg-indigo-600 px-4 py-3 text-white">
+          <p class="text-center text-sm font-medium">
+            Love Alpine JS?
+            <a href="#" class="inline-block underline"> Check out this new course! </a>
+          </p>
+        </div>
+      </div>
+ 
+
+</body>
+</html>
